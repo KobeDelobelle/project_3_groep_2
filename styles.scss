@@ -1,23 +1,21 @@
 $black: #071011;
 $white: #fff;
-$red: tomato;
+$red: #e04869;
 $standard: 10px;
 $card-height: 450px;
 $card-width: 300px;
 
-.container{
+.container {
   margin-bottom: 10%;
 }
-.welcome{
+.welcome {
   height: 85vh;
-  background-color: aliceblue;
+  background-color: $red;
 }
 .wrap {
   max-width: 1400px;
   margin: auto;
 }
-
-
 .background {
   position: absolute;
   top: 0;
@@ -29,7 +27,7 @@ $card-width: 300px;
   background-size: cover;
   background: #ccc;
   background-position: 0 50%;
-  background: #DEB493;
+  background: #deb493;
 
   &:after {
     content: "";
@@ -68,7 +66,6 @@ $card-width: 300px;
   transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
   transform-style: preserve-3d;
 
-
   &:hover .social-icon {
     opacity: 1;
     top: 0;
@@ -106,8 +103,10 @@ $card-width: 300px;
   position: relative;
   height: 150px;
   width: $card-width;
-  background: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88672068827eaeeab540f584b883cc66&auto=format&fit=crop&w=1164&q=80")
-    no-repeat;
+  background: #9c74d4;
+
+  // background: url("https://stackify.com/wp-content/uploads/2018/05/The-Evolution-of-C-881x441.png")
+  //   no-repeat;
   background-size: cover;
   backface-visibility: hidden;
   overflow: hidden;
@@ -133,8 +132,7 @@ $card-width: 300px;
   margin: 0 auto;
   border-radius: 50%;
   border: 5px solid $white;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/156905/profile/profile-512.jpg?1530296477")
-    no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   backface-visibility: hidden;
   overflow: hidden;
@@ -157,7 +155,7 @@ $card-width: 300px;
     font-size: 25px;
   }
 
-  .sub_name{
+  .sub_name {
     font-weight: 700;
     font-family: "Oswald";
 
@@ -193,7 +191,7 @@ $card-width: 300px;
 
     font-weight: 700;
 
-    letter-spacing: .4px;
+    letter-spacing: 0.4px;
 
     border: 2px solid $red;
     padding: 8px 15px;
@@ -267,29 +265,24 @@ $card-width: 300px;
 }
 
 footer {
-
-
   background-color: rgb(97, 96, 96);
   //height: 15vh;
   color: white;
   display: grid;
   place-items: center;
-  img{
+  img {
     //background-image: transparent;
-    height:60px;
-
-
+    height: 60px;
   }
 }
 
-.container-form{
+.container-form {
   display: grid;
   place-items: center;
 }
 
-.logo-footer{
+.logo-footer {
   display: grid;
   place-items: center;
   margin: 10px;
-
 }
