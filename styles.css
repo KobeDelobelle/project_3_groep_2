@@ -1,3 +1,20 @@
+.container {
+  font-size: 1.7em;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.wrap {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.img-hero {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .background {
   position: absolute;
   top: 0;
@@ -8,7 +25,7 @@
   background-size: cover;
   background: #ccc;
   background-position: 0 50%;
-  background: #DEB493;
+  background: #deb493;
 }
 
 .background:after {
@@ -89,7 +106,7 @@
   position: relative;
   height: 150px;
   width: 300px;
-  background: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88672068827eaeeab540f584b883cc66&auto=format&fit=crop&w=1164&q=80") no-repeat;
+  background: url("https://adwallpapers.xyz/uploads/posts/354-high-tech-background.jpg") no-repeat;
   background-size: cover;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -116,7 +133,7 @@
   margin: 0 auto;
   border-radius: 50%;
   border: 5px solid #fff;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/156905/profile/profile-512.jpg?1530296477") no-repeat;
+  background: url("https://images.generated.photos/06g7ysQmaOw_ImrA-aRKWuNJ9TER66kAlJnbMnvENUI/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA2NTAyNDcuanBn.jpg") no-repeat;
   background-size: contain;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -175,7 +192,7 @@
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   font-weight: 700;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   border: 2px solid tomato;
   padding: 8px 15px;
   border-radius: 30px;
@@ -253,10 +270,5 @@
 
 .fab:hover {
   top: -5px;
-}
-
-.cart-container {
-  max-width: 1400px;
-  margin: auto;
 }
 /*# sourceMappingURL=styles.css.map */
