@@ -1,8 +1,12 @@
-.container {
+$black: #071011;
+$white: #fff;
+$red: tomato;
+$standard: 10px;
+$card-height: 450px;
+$card-width: 300px;
+
+.container{
   margin-bottom: 10%;
-}
-.container-timeline{
-  font-size: 1em;
 }
 .welcome{
   height: 85vh;
@@ -13,12 +17,6 @@
   margin: auto;
 }
 
-$black: #071011;
-$white: #fff;
-$red: tomato;
-$standard: 10px;
-$card-height: 450px;
-$card-width: 300px;
 
 .background {
   position: absolute;
@@ -31,7 +29,7 @@ $card-width: 300px;
   background-size: cover;
   background: #ccc;
   background-position: 0 50%;
-  background: #deb493;
+  background: #DEB493;
 
   &:after {
     content: "";
@@ -56,6 +54,7 @@ $card-width: 300px;
   perspective: 900px;
   perspective-origin: 50% calc(50% - 18em);
   width: 300px;
+  margin: 0 20 0 20 px;
 }
 
 .inner-div {
@@ -68,6 +67,7 @@ $card-width: 300px;
   text-align: center;
   transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
   transform-style: preserve-3d;
+
 
   &:hover .social-icon {
     opacity: 1;
@@ -106,7 +106,7 @@ $card-width: 300px;
   position: relative;
   height: 150px;
   width: $card-width;
-  background: url("https://adwallpapers.xyz/uploads/posts/354-high-tech-background.jpg")
+  background: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88672068827eaeeab540f584b883cc66&auto=format&fit=crop&w=1164&q=80")
     no-repeat;
   background-size: cover;
   backface-visibility: hidden;
@@ -133,7 +133,7 @@ $card-width: 300px;
   margin: 0 auto;
   border-radius: 50%;
   border: 5px solid $white;
-  background: url("https://images.generated.photos/06g7ysQmaOw_ImrA-aRKWuNJ9TER66kAlJnbMnvENUI/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA2NTAyNDcuanBn.jpg")
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/156905/profile/profile-512.jpg?1530296477")
     no-repeat;
   background-size: contain;
   backface-visibility: hidden;
@@ -157,7 +157,7 @@ $card-width: 300px;
     font-size: 25px;
   }
 
-  .sub_name {
+  .sub_name{
     font-weight: 700;
     font-family: "Oswald";
 
@@ -193,7 +193,7 @@ $card-width: 300px;
 
     font-weight: 700;
 
-    letter-spacing: 0.4px;
+    letter-spacing: .4px;
 
     border: 2px solid $red;
     padding: 8px 15px;
@@ -261,7 +261,35 @@ $card-width: 300px;
   top: -5px;
 }
 
-// .cart-container {
-//   max-width: 1400px;
-//   margin: auto;
-// }
+.cart-container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+footer {
+
+
+  background-color: rgb(97, 96, 96);
+  //height: 15vh;
+  color: white;
+  display: grid;
+  place-items: center;
+  img{
+    //background-image: transparent;
+    height:60px;
+
+
+  }
+}
+
+.container-form{
+  display: grid;
+  place-items: center;
+}
+
+.logo-footer{
+  display: grid;
+  place-items: center;
+  margin: 10px;
+
+}
