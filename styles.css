@@ -4,7 +4,7 @@
 
 .welcome {
   height: 85vh;
-  background-color: #e04869;
+  background-color: #b23a48;
 }
 
 .wrap {
@@ -33,6 +33,11 @@
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0);
+}
+
+.students {
+  margin: auto;
+  max-width: 1100px;
 }
 
 .outer-div,
@@ -104,7 +109,7 @@
   position: relative;
   height: 150px;
   width: 300px;
-  background: #9c74d4;
+  background: #8e7dbe;
   background-size: cover;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -186,15 +191,15 @@
   position: relative;
   top: 10px;
   font-size: 10px;
-  color: #e04869;
+  color: #8e7dbe;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   font-weight: 700;
   letter-spacing: 0.4px;
-  border: 2px solid #e04869;
+  border: 2px solid #8e7dbe;
   padding: 8px 15px;
   border-radius: 30px;
-  background: #e04869;
+  background: #8e7dbe;
   color: #fff;
 }
 
