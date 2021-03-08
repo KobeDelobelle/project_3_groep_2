@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favIcon">
     <title>Jobdag</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="timeline-style.css">
@@ -21,7 +22,7 @@
 </head>
 
 <body>
-<!--Navigation-->
+    <!--Navigation-->
     <div class="wrap">
         <section class="navigation">
             <nav class="navbar navbar-expand-md navbar-light ">
@@ -50,32 +51,43 @@
                 </div>
             </nav>
         </section>
-
+    </div>
         <!--Welcome-->
 
         <section class="welcome">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <div class="greeting-title display-3">Job Day</div>
-                        <div class="greeting-text">Bent u geïnteresseerd in jonge gemotiveerde .NET programmeurs, neem dan zeker een kijkje op deze site. Hier vindt u onder andere ons team en het traject dat we hebben afgelegd.</div>
-                        <button type="button" class="btn btn-outline-success float-end">Success</button>
+                    <div class="col-md-7">
+                        <div>
+                            <h3>Welkom,</h3>
+                        </div>
+                        <div>
+                            <h1>Jobdag</h1>
+                        </div>
+                        <div>
+                            <h2>.net Oost-Vlaanderen</h1>
+                        </div>
                     </div>
-
-                    <!-- <div class="col-sm col-lg-4">
-                        <img class="img-fluid shadow mb-5 bg-light rounded"
-                            src="https://www.syncfusion.com/blogs/wp-content/uploads/2019/11/csharp-using-declaration.png"
-                            alt="pic">
-                    </div> -->
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4 welcome-image"><img src="img/calender.png"></div>
+                </div>
+            <div class="row mt-5">
+                <div class="col-md-10">
+                    <h5>Bent u geïnteresseerd in jonge gemotiveerde .NET programmeurs, neem dan zeker een kijkje op deze
+                        site. Hier vindt u onder andere ons team en het traject dat we hebben afgelegd.</h5>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-light btn-lg">Inschrijven</button>
                 </div>
             </div>
+        </div>
         </section>
-
-     <!--Students-->   
+        <div class="wrap">
+        <!--Students-->
         <section class="students" id="students">
             <div class="container">
 
-                <h1 class="text-center display-2">Cursisten</h1>
+                <h1 class="text-center display-2">Team</h1>
 
                 <div class="row ">
 
@@ -85,7 +97,9 @@
                             <div class="inner-div">
                                 <div class="front">
                                     <div class="front__bkg-photo"></div>
-                                    <div class="front__face-photo" style="background-image: url(https://images.generated.photos/B-ethj-3yQEqHX9xD_H-hrlCW4fGiPUVybKkNKVa8Wo/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjMyMDAuanBn.jpg)"></div>
+                                    <div class="front__face-photo"
+                                        style="background-image: url(https://images.generated.photos/B-ethj-3yQEqHX9xD_H-hrlCW4fGiPUVybKkNKVa8Wo/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMjMyMDAuanBn.jpg)">
+                                    </div>
                                     <div class="front__text">
                                         <h3 class="front__text-header">Bobby</h3>
                                         <h2 class="sub_name">Korec den dwazen</h2>
@@ -104,8 +118,6 @@
                                                 aria-hidden="true"></i></a>
                                         <a href="#" class="social-icon"><i class="fab fa-linkedin"
                                                 aria-hidden="true"></i></a>
-                                        <a href="#" class="social-icon"><i class="fab fa-instagram"
-                                                aria-hidden="true"></i></a>
                                     </div>
                                 </div>
 
@@ -117,7 +129,9 @@
                             <div class="inner-div">
                                 <div class="front">
                                     <div class="front__bkg-photo"></div>
-                                    <div class="front__face-photo" style="background-image: url(https://images.generated.photos/9fP3k-1FgQOtvK0KakE7qNm9OoUKiMJNZx4zdYQ84fY/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA4NDM2NTguanBn.jpg) "></div>
+                                    <div class="front__face-photo"
+                                        style="background-image: url(https://images.generated.photos/9fP3k-1FgQOtvK0KakE7qNm9OoUKiMJNZx4zdYQ84fY/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA4NDM2NTguanBn.jpg) ">
+                                    </div>
                                     <div class="front__text">
                                         <h3 class="front__text-header">Bobby</h3>
                                         <h2 class="sub_name">Korec den dwazen</h2>
@@ -506,7 +520,7 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p>Basis syntax, structuren, principes en omgeving, programmatielogica,
-                                    Visual Studio, OOP, Github, project</p>
+                                        Visual Studio, OOP, Github, project</p>
                                 </div>
                             </div>
                         </li>
@@ -519,7 +533,8 @@
                                     <h4 class="timeline-title">C# Advanced</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Generieken, lambda's, I/O, Multi-threading, SOLID & Design Principles (Robert C. Martin),
+                                    <p>Generieken, lambda's, I/O, Multi-threading, SOLID & Design Principles (Robert C.
+                                        Martin),
                                         WPF, project
                                     </p>
                                 </div>
@@ -533,7 +548,8 @@
                                     <h4 class="timeline-title">Web</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>XML, HTML, CSS, Bootstrap, intro Javascript, Ajax & JSON, presentatie, flyer, project: groeps- en persoonlijke websites</p>
+                                    <p>XML, HTML, CSS, Bootstrap, intro Javascript, Ajax & JSON, presentatie, flyer,
+                                        project: groeps- en persoonlijke websites</p>
                                 </div>
                             </div>
                         </li>
@@ -545,7 +561,9 @@
                                     <h4 class="timeline-title">Enterprise programmeren</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Building Automatisation, NuGet & Automated Building (Jenkins), Test Driven development & Unit Testing, TDD & Extreme Programming, NUnit, Gegevensanalyse, SQL, Entity Framework, WPF, project </p>
+                                    <p>Building Automatisation, NuGet & Automated Building (Jenkins), Test Driven
+                                        development & Unit Testing, TDD & Extreme Programming, NUnit, Gegevensanalyse,
+                                        SQL, Entity Framework, WPF, project </p>
                                 </div>
                             </div>
                         </li>
@@ -557,7 +575,8 @@
                                     <h4 class="timeline-title">Enterprise programmeren gevorderd</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Scrum & Agile, Javascript Framework, Typescript, Angular 8+, ASP.NET, MVC, Web API, Razor, project rond Web Application (MVC of REST)</p>
+                                    <p>Scrum & Agile, Javascript Framework, Typescript, Angular 8+, ASP.NET, MVC, Web
+                                        API, Razor, project rond Web Application (MVC of REST)</p>
                                 </div>
                             </div>
                         </li>
@@ -588,17 +607,17 @@
         </section>
 
     </div>
-    <footer >
-        <div class= "row mt-3">
+    <footer>
+        <div class="row mt-3">
 
-        <div class=" logo-footer col-md-12 col-lg-3">
-            <img src="img/vdab.png" alt="pic">
-        </div>
+            <div class=" logo-footer col-md-12 col-lg-3">
+                <img src="img/vdab.png" alt="pic">
+            </div>
 
-        <div class=" logo-footer col-md-12 col-lg-3">
-            <img src="img/3logo.png" alt="pic">
+            <div class=" logo-footer col-md-12 col-lg-3">
+                <img src="img/3logo.png" alt="pic">
+            </div>
         </div>
-    </div>
 
 
     </footer>

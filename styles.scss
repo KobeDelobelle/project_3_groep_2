@@ -14,13 +14,44 @@ $standard: 10px;
 $card-height: 450px;
 $card-width: 300px;
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   margin-bottom: 10%;
 }
 .welcome {
-  height: 85vh;
+  height: 90vh;
   background-color: $basic-one;
+  padding: 10%;
+
+  h1{
+    font-weight: 700;
+    color: $white;
+    font-size:12em;
+    text-align: right;
+  }
+  h2{
+    font-size: 3em;
+    color:$white;
+    text-align:right;
+  }
+  h5{
+    font-size:1.5em;
+    color: $white;
+  }
+  h3{
+    color:$white;
+    font-size:2.5em;
+  }
+  .welcome-image{
+    margin:auto;
+  }
 }
+
 .wrap {
   max-width: 1400px;
   margin: auto;
@@ -117,7 +148,7 @@ $card-width: 300px;
   position: relative;
   height: 150px;
   width: $card-width;
-  background: $basic-three;
+  background: $basic-one;
 
   // background: url("https://stackify.com/wp-content/uploads/2018/05/The-Evolution-of-C-881x441.png")
   //   no-repeat;
@@ -200,19 +231,19 @@ $card-width: 300px;
     position: relative;
     top: 10px;
     font-size: 10px;
-    color: $basic-two;
+    color: $basic-one;
     backface-visibility: hidden;
 
     font-weight: 700;
 
     letter-spacing: 0.4px;
 
-    border: 2px solid $basic-two;
+    border: 2px solid $basic-one;
     padding: 8px 15px;
 
     border-radius: 30px;
 
-    background: $basic-two;
+    background: $basic-one;
     color: $white;
   }
 }
@@ -279,7 +310,7 @@ $card-width: 300px;
 }
 
 footer {
-  background-color: rgb(97, 96, 96);
+  background-color:#999;
   //height: 15vh;
   color: white;
   display: grid;

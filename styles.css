@@ -1,10 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   margin-bottom: 10%;
 }
 
 .welcome {
-  height: 85vh;
+  height: 90vh;
   background-color: #b23a48;
+  padding: 10%;
+}
+
+.welcome h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 12em;
+  text-align: right;
+}
+
+.welcome h2 {
+  font-size: 3em;
+  color: #fff;
+  text-align: right;
+}
+
+.welcome h5 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.welcome h3 {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.welcome .welcome-image {
+  margin: auto;
 }
 
 .wrap {
@@ -109,7 +142,7 @@
   position: relative;
   height: 150px;
   width: 300px;
-  background: #8e7dbe;
+  background: #b23a48;
   background-size: cover;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -191,15 +224,15 @@
   position: relative;
   top: 10px;
   font-size: 10px;
-  color: #8e7dbe;
+  color: #b23a48;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   font-weight: 700;
   letter-spacing: 0.4px;
-  border: 2px solid #8e7dbe;
+  border: 2px solid #b23a48;
   padding: 8px 15px;
   border-radius: 30px;
-  background: #8e7dbe;
+  background: #b23a48;
   color: #fff;
 }
 
@@ -281,7 +314,7 @@
 }
 
 footer {
-  background-color: #616060;
+  background-color: #999;
   color: white;
   display: -ms-grid;
   display: grid;
