@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  font-size: 1em;
+  font-weight: 700;
 }
 
 .container {
@@ -38,6 +43,22 @@
 
 .welcome .welcome-image {
   margin: auto;
+}
+
+.welcome .sub-text {
+  padding-bottom: -150px;
+}
+
+@media (max-width: 1100px) {
+  .welcome {
+    padding-top: 25%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .welcome h1 {
+    font-size: 7.2em;
+  }
 }
 
 .wrap {
@@ -191,14 +212,12 @@
 
 .front__text .front__text-header {
   font-weight: 700;
-  font-family: "Oswald";
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .front__text .sub_name {
-  font-weight: 700;
-  font-family: "Oswald";
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .front__text .front__text-para {
@@ -209,7 +228,6 @@
   font-size: 12px;
   letter-spacing: 0.4px;
   font-weight: 400;
-  font-family: "Oswald", sans-serif;
 }
 
 .front__text .front-icons {
@@ -263,6 +281,11 @@
 
 .social-media-wrapper {
   font-size: 36px;
+}
+
+.social-media-wrapper h2 {
+  color: #fff;
+  padding-bottom: 0.5em;
 }
 
 .social-media-wrapper .social-icon {
