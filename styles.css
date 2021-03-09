@@ -183,7 +183,7 @@
 }
 
 .teacher {
-  background-color: #812a34;
+  background-color: #6e252d;
 }
 
 .front__face-photo {
@@ -262,15 +262,15 @@
   position: relative;
   top: 10px;
   font-size: 10px;
-  color: #812a34;
+  color: #6e252d;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   font-weight: 700;
   letter-spacing: 0.4px;
-  border: 2px solid #812a34;
+  border: 2px solid #6e252d;
   padding: 8px 15px;
   border-radius: 30px;
-  background: #812a34;
+  background: #6e252d;
   color: #fff;
 }
 
