@@ -1,3 +1,5 @@
+//Our style
+
 $black: #071011;
 $white: #fff;
 $red: #e04869;
@@ -14,10 +16,10 @@ $standard: 10px;
 $card-height: 450px;
 $card-width: 300px;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
 
-*{
-  font-family: 'Raleway', sans-serif;
+* {
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -28,27 +30,27 @@ $card-width: 300px;
   background-color: $basic-one;
   padding: 10%;
 
-  h1{
+  h1 {
     font-weight: 700;
     color: $white;
-    font-size:12em;
+    font-size: 12em;
     text-align: right;
   }
-  h2{
+  h2 {
     font-size: 3em;
-    color:$white;
-    text-align:right;
+    color: $white;
+    text-align: right;
   }
-  h5{
-    font-size:1.5em;
+  h5 {
+    font-size: 1.5em;
     color: $white;
   }
-  h3{
-    color:$white;
-    font-size:2.5em;
+  h3 {
+    color: $white;
+    font-size: 2.5em;
   }
-  .welcome-image{
-    margin:auto;
+  .welcome-image {
+    margin: auto;
   }
 }
 
@@ -310,7 +312,7 @@ $card-width: 300px;
 }
 
 footer {
-  background-color:#999;
+  background-color: #999;
   //height: 15vh;
   color: white;
   display: grid;
