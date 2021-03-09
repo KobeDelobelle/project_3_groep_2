@@ -4,13 +4,8 @@ $black: #071011;
 $white: #fff;
 $red: #e04869;
 
-$basic-one: #fed0bb;
-$basic-two: #b23a48;
-
 $basic-one: #b23a48;
-$basic-two: #8e7dbe;
-
-$basic-three: #8e7dbe;
+$basic-two: #812a34;
 
 $standard: 10px;
 $card-height: 450px;
@@ -186,6 +181,9 @@ $card-width: 300px;
     width: 100%;
   }
 }
+.teacher{
+  background-color: $basic-two;
+}
 
 .front__face-photo {
   position: relative;
@@ -258,6 +256,25 @@ $card-width: 300px;
     background: $basic-one;
     color: $white;
   }
+  .front__text-hover2 {
+    position: relative;
+    top: 10px;
+    font-size: 10px;
+    color: $basic-two;
+    backface-visibility: hidden;
+
+    font-weight: 700;
+
+    letter-spacing: 0.4px;
+
+    border: 2px solid $basic-two;
+    padding: 8px 15px;
+
+    border-radius: 30px;
+
+    background: $basic-two;
+    color: $white;
+  }
 }
 
 .back {
@@ -326,17 +343,17 @@ $card-width: 300px;
 }
 
 footer {
-  background-color: #999;
+  background-color: rgb(194, 194, 194);
   //height: 15vh;
   color: white;
   display: grid;
   place-items: center;
+  border-top: $basic-one 8px solid;
   img {
     //background-image: transparent;
     height: 60px;
   }
 }
-
 .container-form {
   display: grid;
   place-items: center;

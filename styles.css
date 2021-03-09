@@ -182,6 +182,10 @@
   width: 100%;
 }
 
+.teacher {
+  background-color: #812a34;
+}
+
 .front__face-photo {
   position: relative;
   top: -100px;
@@ -251,6 +255,22 @@
   padding: 8px 15px;
   border-radius: 30px;
   background: #b23a48;
+  color: #fff;
+}
+
+.front__text .front__text-hover2 {
+  position: relative;
+  top: 10px;
+  font-size: 10px;
+  color: #812a34;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  border: 2px solid #812a34;
+  padding: 8px 15px;
+  border-radius: 30px;
+  background: #812a34;
   color: #fff;
 }
 
@@ -337,11 +357,12 @@
 }
 
 footer {
-  background-color: #999;
+  background-color: #c2c2c2;
   color: white;
   display: -ms-grid;
   display: grid;
   place-items: center;
+  border-top: #b23a48 8px solid;
 }
 
 footer img {
